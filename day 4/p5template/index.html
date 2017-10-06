@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>my p5 sketch</title>
+  <style>
+    html, body {
+      margin: 0;
+    }
+
+    canvas {
+      position: fixed;
+      z-index: 0;
+    }
+
+    .container {
+      position: fixed;
+      top: 100px;
+      left: 100px;
+      background: transparent;
+      z-index: 1;
+      width: 50%;
+      font-family: sans-serif;
+      color: #EEE;
+    }
+
+    .container h1 span {
+      border-bottom: 3px solid #EEE ;
+    }
+
+    .container p {
+      line-height: 23px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <span>Lough Ree Power Station</span>
+    </h1>
+    <p>
+      The Lough Ree Power Station is a large peat-fired power station in Lanesborough, in the Republic of Ireland. The station generates up 100 MWe of power, ranking as the Third largest peat-fired power station in the country, after West Offaly Power Station at 150 MWe.[1][2][3] and Edenderry Power Station at 120 MWe. The power station was constructed as a replacement to the ageing 85 MWe Lanesborough power station.
+    </p>
+  </div>
+  <!-- you can just leave the following two lines to run the sketch without anything else -->
+  <script src="p5.min.js" charset="utf-8"></script>
+  <script src="sketch.js" charset="utf-8"></script>
+</body>
+</html>
